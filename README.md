@@ -1,3 +1,7 @@
+Victória Maria Veloso Rodrigues 11811ECP003,
+Anaísa Forti da Fonseca 11811ECP012,
+Lucas Alesterio Marques Vieira 11621ECP016, 
+
 ## Routes
 
 ### /user
