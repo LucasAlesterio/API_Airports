@@ -1,8 +1,8 @@
 const srcConfig = {
     type: "mariadb",
-    host: "localhost",
+    host: "database-asa.cbjt4dawcwnt.sa-east-1.rds.amazonaws.com",
     username: "root",
-    password: "000000",
+    password: "00000000",
     port: 3306,
     database: "asa_tb2",
     synchronize: true,
@@ -12,9 +12,9 @@ const srcConfig = {
 };
 const distConfig = {
     type: "mariadb",
-    host: "db",
+    host: "database-asa.cbjt4dawcwnt.sa-east-1.rds.amazonaws.com",
     username: "root",
-    password: "000000",
+    password: "00000000",
     port: 3306,
     database: "asa_tb2",
     synchronize: true,
@@ -24,3 +24,4 @@ const distConfig = {
 };
 console.log(process.env.TS_NODE, "NODE ENV");
 module.exports = process.env.TS_NODE ? srcConfig : distConfig;
+
