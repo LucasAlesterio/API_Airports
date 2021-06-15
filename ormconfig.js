@@ -18,7 +18,7 @@ const distConfig = {
     port: 3306,
     database: "asa_tb2",
     synchronize: true,
-    entities: ["dist/models/**.js"],
+    entities: ["dist/src/models/**.js"],
     logging: false,
     insecureAuth: true,
 };
